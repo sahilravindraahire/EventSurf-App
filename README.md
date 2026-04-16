@@ -31,7 +31,7 @@ You will also need a MongoDB database (e.g., [MongoDB Atlas Free Tier](https://w
 Navigate to `server/.env` and fill in the necessary keys:
 ```env
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=supersecretjwtkey_eventora
+JWT_SECRET=jwt_secret_code
 EMAIL_USER=your_gmail_address
 EMAIL_PASS=your_gmail_app_password
 PORT=5000
@@ -42,7 +42,7 @@ PORT=5000
 You can now manage both backend and frontend from the project root:
 
 ```bash
-# from Eventora root
+# from EventSurf root
 npm install
 npm run install:all
 npm run dev
